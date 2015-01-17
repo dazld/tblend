@@ -1,0 +1,46 @@
+ body {
+     background: #333;
+}
+#ref {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    height: 300px;
+    width: 200px;
+    background: url(http://upload.wikimedia.org/wikipedia/commons/d/d1/Lichtenberg_color_triangle_Tobias_Mayer_1775.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#compmode {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+}
+#rows {
+    top: 0;
+    left: 0;
+}
+.picker {
+    
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+
+.picker input {
+    border: 0;
+    text-align: center;
+    width: 80px;
+    padding: 3px 6px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+canvas {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
